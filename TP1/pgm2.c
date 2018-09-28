@@ -3,8 +3,9 @@
 #include <string.h>
 
 int check_authentification (char *password) {
-  int auth_flag=0;
+
   char password_buffer[16];
+  int auth_flag=0;
   strcpy(password_buffer, password);
   if (strcmp(password_buffer, "titi")==0)
     auth_flag=1;
