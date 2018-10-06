@@ -5,7 +5,7 @@
 int main(int argc, char **argv)
 {
 
- char * buf,*buf2,*buf3;
+ char *buf,*buf2,*buf3;
 
  buf=(char*)malloc(1024);
  buf2=(char*)malloc(1024);
